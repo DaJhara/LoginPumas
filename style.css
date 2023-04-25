@@ -1,0 +1,43 @@
+body{
+    background-image: url("/img/Recurso 1.png");
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .card{
+    width: 40%;
+    
+   
+  }
+
+  .card-header{
+    background-color: #FF0000;
+    text-align: center;
+    
+  }
+  .form-control{
+    border-style: none;
+    border-bottom: #FF0000;
+  }
+
+.btn-primary{
+    background-color: #FF0000;
+    border: #FF0000;
+    position: relative;
+}
+.formBtn{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.card a{
+    color: black;
+    justify-content: center;
+}
+
