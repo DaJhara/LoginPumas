@@ -153,20 +153,21 @@ body {
     justify-content: center;
     align-items: center;
     position: relative;
+    border-radius: 10px;
     width: 90%; 
-    height: 20%;
+    height: 15%;
     margin: auto;
     box-shadow: 5px 5px 10px; 
 }
 
-.card-actas .card-header {
+.card-actas .card-header{
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: left;
     position: relative;
-    width: 40%;
+    width: 100%;
     color: black;
     text-align: left;
+    text-decoration: none;
 }
 
 .card-actas .card-body{
@@ -176,8 +177,22 @@ body {
     padding-top: 10%;
 }
 
-.card-actas .card-body img{
-    padding-left: 10px;  
-    height: 90%;
+.card-actas .col-md-6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-  
+
+.card-actas .col-md-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-actas .leftIcon{
+    height: 70%;
+}
+
+.card-actas .rightIcon{
+    height: 40%;
+}
